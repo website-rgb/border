@@ -1,31 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="de">
-    <head>
-        <title>
-            Border
-        </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <meta name="Author" content="Anton Kühnert">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="header">
-            <p class="descr">
-                Border
-            </p>
-        </div>
-        <h1>
-            Wilkommen auf der offizielen Webseite von Border!
-        </h1>
-        <p class="p">
-            Hier findest du Bilder & Informationen zu den Border Servern
-        </p>
-        <hr>
-       <button onclick="window.location.href='info.html'">Informationen</button>
-    </body>
+  <head>
+    <title>Border</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="Author" content="Anton Kühnert" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <p class="descr">Border</p>
+    </div>
+    <h1>Wilkommen auf der offizielen Webseite von Border!</h1>
+    <p class="p">
+      Hier findest du Bilder & Informationen zu den Border Servern
+    </p>
+    <hr />
+    <br />
+    <button class="btn" onclick="window.location.href = 'info.html'">
+      Informationen
+    </button>
+    <button class="btn" onclick="window.location.href = 'bilder.html'">
+      Bilder
+    </button>
+    <br />
+    <hr />
+    <p class="p">
+      nächstes Webseiten Update in diesem zeitraum (bis zum 05.02.2026):
+    </p>
+    <!-- prettier-ignore -->
+    <div class="timer">
+      <p id="d"></p>
+      <p class="timerb">:</p>
+      <p id="h"></p>
+      <p class="timerb">:</p>
+      <p id="m"></p>
+      <p class="timerb">:</p>
+      <p id="s"></p>
+      <script src="timer.js" defer></script>
+      </p>
+     </div>
+     <p class="timerbu">
+      Tage Stunden Minuten Sekunden
+     </p>
+    <hr />
+    <p class="p">
+      <small>
+        <i>(Diese Webseite wurde erstellt von RedCircuit erstellt)</i>
+      </small>
+    </p>
+  </body>
 </html>
